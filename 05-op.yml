@@ -8,6 +8,5 @@
       
     - name: printing the uptime 
       debug:
-       msg: the uptime is {{out}}
-       
-        
+       msg: the uptime is {{out.stdout}}
+
