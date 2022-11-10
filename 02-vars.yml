@@ -15,4 +15,4 @@
         msg: "{{ URL }}"
 
       vars:
-        URL: play.google.com
+        URL: text.google.com
