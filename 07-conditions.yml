@@ -17,7 +17,7 @@
      when: ansible_distribution == "ubuntu" 
 
 
-    - name: only excute when the epic is true
-      ansible.builtin.debug:
+   - name: only excute when the epic is true
+     ansible.builtin.debug:
           msg: hi iam siddharth
-      when: epic
+     when: epic
