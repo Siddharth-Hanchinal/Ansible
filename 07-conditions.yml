@@ -2,7 +2,7 @@
   hosts: all
     
     vars:
-      epic: true
+        epic: true
 
   tasks: 
 
