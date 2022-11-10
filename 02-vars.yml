@@ -7,7 +7,7 @@
     
     - name: printing the url
       ansible.builtin.debug:
-        msg: the url is "{{URL}}"
+        msg: the url is "{{ URL }}"
 
 
 - name: demo on variables 
