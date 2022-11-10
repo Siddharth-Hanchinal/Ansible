@@ -1,10 +1,11 @@
 - name: demo on conditions 
   hosts: all
+    
+    vars:
+
+       epic: true
+
   tasks: 
-
-  vars:
-
-   epic: true
 
    - name: run this when os is centos
      ansible.builtin.debug:
