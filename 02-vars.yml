@@ -16,3 +16,9 @@
 
       vars:
         URL: text.google.com
+
+    - name: printing the url from CLI
+      ansible.builtin.debug:
+        msg: URL_CLI is {{ URL_CLI }}
+
+
