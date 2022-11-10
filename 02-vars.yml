@@ -1,8 +1,8 @@
 - name: demo on variables
   hosts: all
-  
-  URL: play.google.com
-  
+  vars:
+    URL: play.google.com
+
   tasks:
     
     - name: printing the url
