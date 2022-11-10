@@ -1,6 +1,6 @@
 - name: demo on variables
   hosts: all
-  
+  vars:
     
     URL: play.google.com
 
@@ -8,5 +8,11 @@
     
     - name: printing the url
       ansible.builtin.debug:
-        msg: the url is "{{ URL }}"
+        msg: the url is {{ URL }}
 
+    - name: printing the url
+      ansible.builtin.debug:
+        msg: "{{ URL }}"
+
+      vars:
+        URL: play.google.com
