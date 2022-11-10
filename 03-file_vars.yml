@@ -24,3 +24,5 @@
     - name: Printing URL from CLI 
       ansible.builtin.debug:
         msg: URL_CLI is {{ CLI_URL }} 
+
+        # CLI Variable > local variable > > files_variables>  global variable

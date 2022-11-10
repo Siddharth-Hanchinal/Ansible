@@ -4,6 +4,11 @@
     
     URL: play.google.com
 
+  vars_prompt:
+       - name: URL 
+         prompt: Enter URL  
+         private: no
+
   tasks:
     
     - name: printing the url
