@@ -6,5 +6,5 @@
   tasks:
     
     - name: printing the url
-      ansible.builtin.debug:
-      msg: the url is "{{URL}}"
+       ansible.builtin.debug:
+       msg: the url is "{{URL}}"
