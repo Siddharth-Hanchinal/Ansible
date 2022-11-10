@@ -4,4 +4,4 @@
    
    - name: print hello from the task1
      ansible.builtin.debug:
-     msg: hi from the task1 of play1
+      msg: hi from the task1 of play1
