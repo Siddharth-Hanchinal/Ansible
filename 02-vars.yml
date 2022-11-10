@@ -18,8 +18,7 @@
         URL: text.google.com
 
   
-    - name: printing the url from CLI
+    - name: Printing URL from CLI 
       ansible.builtin.debug:
-        msg: URL_CLI is {{ URL_CLI }}
-
+        msg: URL_CLI is {{ CLI_URL }} 
 
