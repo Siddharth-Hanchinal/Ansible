@@ -4,4 +4,5 @@
 
     - name:  Running a shell command
       ansible.builtin.shell: uptime
+      register: out
       
