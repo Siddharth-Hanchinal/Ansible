@@ -5,7 +5,7 @@
     URL: play.google.com
 
   vars_files:
-      - dev-vars.ym
+      - dev-vars.yml
 
   tasks:
     
